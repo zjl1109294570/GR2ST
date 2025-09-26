@@ -3,7 +3,7 @@
 ## Overview
 Here, we propose GR2ST, a deep learning model that learns the underlying connections between image features and gene expression to predict spatial transcriptomics. GR2ST employs a large pre-trained model for the purpose of image feature extraction; a dual-branch graph neural network captures functional similarity and spatial proximity in gene expression by incorporating spatial coordinates and cell-type annotations. Contrastive learning then narrows the discrepancy separating image features from gene expression representations. Finally, we use the image features aligned by GR2ST to predict gene expression. We evaluated the performance of the model on datasets from cutaneous squamous cell carcinoma and human breast cancer to demonstrate its effectiveness.
 
-![(Variational)](model.png)
+![(Variational)](GR2ST/GR2ST/model.png)
 
 ## System environment
 Required package:
@@ -42,8 +42,7 @@ Two publicly available ST datasets were used in this study. You can find them on
     ├── hvg_her2st.py
     ├── hvg_cscc.py
     ├── evel_her2st.py
-    ├── evel_cscc.py
-    └── README.md  
+    ├── evel_cscc.py  
 
 
 </code>
