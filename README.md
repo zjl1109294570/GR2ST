@@ -37,42 +37,16 @@ You can obtain the baseline used in this article from the following link.
 
 ![cscc result](GR2ST/GR2ST/cscc_output.png)
 
-\begin{table}[!t]
-\caption{Wilcoxon signed-rank test results and PCC results on HER2+ dataset\label{tab1}}%
-\centering
-\begin{tabular}{ccccc}
-\toprule
-\multirow{2}{*}{Model}&\multirow{2}{*}{PCC}&Median&Wilcoxon&Significance\\
-&&diff&P-value&($\alpha$=0.05)\\
-\midrule
-GR2ST & 0.2340  & -  & - & -  \\
-HisToGene & 0.0818  & 0.1399 & 0.0000 & Yes  \\
-THItoGene & 0.1330  & 0.0969 & 0.0000 & Yes  \\
-Hist2ST & 0.1484  & 0.0916 & 0.0000 & Yes  \\
-HGGEP & 0.1566  & 0.0891 & 0.0000 & Yes  \\
-mclSTExp & 0.2281  & 0.0049 & 0.0401 & Yes  \\
-Reg2ST & 0.1741  & 0.0628 & 0.0000 & Yes  \\
-\botrule
-\end{tabular}
-\end{table}
+| Model       | PCC (HER2+) | PCC (cSCC) | 
+|-------------|------------------|------------------|
+| HisToGene   | 0.0818           | 0.0771           |
+| Hist2ST     | 0.1484           | 0.1749           |
+| THIToGene   | 0.1330           | 0.1796           |
+| mclSTExp    | 0.2281           | 0.3157           |
+| HGGEP       | 0.1566           | 0.1084           |
+| Reg2ST      | 0.1741           | 0.2024      |
+| GR2ST       | **0.2340**           |  **0.3246**      |
 
-\begin{table}[!t]
-\caption{Wilcoxon signed-rank test results and PCC results on cSCC dataset\label{tab2}}%
-\centering
-\begin{tabular}{ccccc}
-\toprule
-\multirow{2}{*}{Model}&\multirow{2}{*}{PCC}&Median&Wilcoxon&Significance\\
-&&diff&P-value&($\alpha$=0.05)\\
-\midrule
-GR2ST & 0.3246  & -  & - & -  \\
-HisToGene & 0.0771  & 0.2509 & 0.0002 & Yes  \\
-THItoGene & 0.1796  & 0.1586 & 0.0002 & Yes  \\
-Hist2ST & 0.1749  & 0.1428 & 0.0002 & Yes  \\
-HGGEP & 0.1084  & 0.2041 & 0.0002 & Yes  \\
-mclSTExp & 0.3157  & 0.0049 & 0.1018 & No  \\
-Reg2ST & 0.2024  & 0.1348 & 0.0002 & Yes  \\
-\botrule
-\end{tabular}
-\end{table}
+Reuslts of ablation study and parameter sensitivity are in folder `results`.
 </code>
 </pre>
