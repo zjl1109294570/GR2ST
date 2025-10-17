@@ -33,9 +33,9 @@ You can obtain the baseline used in this article from the following link.
 - Run `evel_her2st.py`
 
 ## Results
-![her2st result](results/Fig. 2. Performance on the HER2+ dataset .pdf)
+![her2st result](GR2ST/GR2ST/her2st_output.png)
 
-![cscc result](results/Fig. 3. Performance on the cSCC dataset .pdf)
+![cscc result](GR2ST/GR2ST/cscc_output.png)
 
 \begin{table}[!t]
 \caption{Wilcoxon signed-rank test results and PCC results on HER2+ dataset\label{tab1}}%
