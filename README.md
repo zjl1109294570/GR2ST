@@ -28,9 +28,9 @@ You can obtain the baseline used in this article from the following link.
 ## GR2ST pipeline
 
 - Run `hvg_her2st.py` generation of highly variable genes.
-- Run `data_precessing.ipynb` 
-- Run `train_her2st.ipynb`
-- Run `evel_her2st.py`
+- Run `data_precessing.ipynb` to obtain the various data required for model training.
+- Run `train_her2st.ipynb` to train the model on the her2st dataset using leave-one-out cross-validation.
+- Run `evel_her2st.py` to calculate the PCC between predicted and ground truth gene expression to evaluate model performance.
 
 ## Results
 ![her2st result](GR2ST/GR2ST/her2st_output.png)
