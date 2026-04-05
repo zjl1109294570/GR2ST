@@ -35,9 +35,9 @@ You can obtain the baseline used in this article from the following link.
 - Run `evel_her2st.py` to calculate the PCC between predicted and ground truth gene expression to evaluate model performance.
 
 ## Results
-![her2st result](GR2ST/GR2ST/her2st_output.png)
-![cscc result](GR2ST/GR2ST/cscc_output.png)
-![alex result](GR2ST/GR2ST/alex_output.png)
+![her2st result](GR2ST/results/her2st_output.png)
+![cscc result](GR2ST/results/cscc_output.png)
+![alex result](GR2ST/results/alex_output.png)
 
 | Model       | PCC (HER2+) | PCC (cSCC) | PCC (Alex) |
 |-------------|------------------|------------------|
