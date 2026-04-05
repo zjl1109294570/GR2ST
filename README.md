@@ -40,7 +40,7 @@ You can obtain the baseline used in this article from the following link.
 ![alex result](GR2ST/results/alex_output.png)
 
 | Model       | PCC (HER2+) | PCC (cSCC) | PCC (Alex) |
-|-------------|------------------|------------------|
+|-------------|------------------|------------------|------------------|
 | HisToGene   | 0.0818           | 0.0771           | 0.0392           |
 | Hist2ST     | 0.1484           | 0.1749           | 0.0712           |
 | THIToGene   | 0.1330           | 0.1796           | 0.0638           |
